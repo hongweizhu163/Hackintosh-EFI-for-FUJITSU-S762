@@ -1,0 +1,127 @@
+6:763  0:166  Found BIOS RSDP at f0120
+6:763  0:000  Printing ACPI tables from RSDP f0120 ...
+6:763  0:000   f0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:763  0:000    (Xsdt: daffe170, Rsdt: daffe0d4)
+6:763  0:000    daffe170: 'XSDT', 'PC', Rev: 1, Len: 180
+6:763  0:000    daffe0d4: 'RSDT', 'PC', Rev: 1, Len: 108
+6:763  0:000    Tables in Xsdt: 18
+6:763  0:000    0. dafed000: 'FACP', 'PC', Rev: 5, Len: 268
+6:763  0:000        (Dsdt: DAFF0000, Facs: DAF9D000, XDsdt: daff0000, XFacs: 0)
+6:763  0:000        daff0000: 'DSDT', 'FJNB24D', Rev: 2, Len: 40057
+6:763  0:000        daf9d000: 'FACS', Ver: 2, Len: 64
+6:763  0:000    1. daffd000: 'SLIC', 'PC', Rev: 1, Len: 374
+6:763  0:000    2. daffc000: 'SSDT', 'SataAhci', Rev: 1, Len: 1435
+6:763  0:000    3. daffb000: 'SSDT', 'BayAhci2', Rev: 1, Len: 723
+6:763  0:000    4. daffa000: 'SSDT', 'AutoDlnk', Rev: 2, Len: 224
+6:763  0:000    5. dafef000: 'ASF!', 'PC', Rev: 32, Len: 165
+6:763  0:000    6. dafec000: 'HPET', 'PC', Rev: 1, Len: 56
+6:763  0:000    7. dafeb000: 'APIC', 'PC', Rev: 3, Len: 152
+6:763  0:000    8. dafea000: 'MCFG', 'PC', Rev: 1, Len: 60
+6:763  0:000    9. dafe9000: 'FPDT', 'PC', Rev: 1, Len: 100
+6:763  0:000    10. dafe8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+6:763  0:000    11. dafe7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2801
+6:763  0:000    12. dafe6000: 'UEFI', 'PC', Rev: 1, Len: 62
+6:763  0:000    13. dafe5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+6:763  0:000    14. daf77000: 'POAT', 'PC', Rev: 3, Len: 85
+6:763  0:000    15. dafe4000: 'UEFI', 'PC', Rev: 1, Len: 718
+6:763  0:000    16. dafe3000: 'DBG2', 'PC', Rev: 0, Len: 112
+6:763  0:000    17. dafe2000: 'BGRT', 'PC', Rev: 0, Len: 56
+6:763  0:000    Tables in Rsdt: 18
+6:763  0:000    0. dafee000: 'FACP', 'PC', Rev: 1, Len: 116
+6:763  0:000        (Dsdt: DAFF0000, Facs: DAF9D000)
+6:763  0:000        daff0000: 'DSDT', 'FJNB24D', Rev: 2, Len: 40057
+6:764  0:000        daf9d000: 'FACS', Ver: 2, Len: 64
+6:764  0:000    1. daffd000: 'SLIC', 'PC', Rev: 1, Len: 374
+6:764  0:000    2. daffc000: 'SSDT', 'SataAhci', Rev: 1, Len: 1435
+6:764  0:000    3. daffb000: 'SSDT', 'BayAhci2', Rev: 1, Len: 723
+6:764  0:000    4. daffa000: 'SSDT', 'AutoDlnk', Rev: 2, Len: 224
+6:764  0:000    5. dafef000: 'ASF!', 'PC', Rev: 32, Len: 165
+6:764  0:000    6. dafec000: 'HPET', 'PC', Rev: 1, Len: 56
+6:764  0:000    7. dafeb000: 'APIC', 'PC', Rev: 3, Len: 152
+6:764  0:000    8. dafea000: 'MCFG', 'PC', Rev: 1, Len: 60
+6:764  0:000    9. dafe9000: 'FPDT', 'PC', Rev: 1, Len: 100
+6:764  0:000    10. dafe8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+6:764  0:000    11. dafe7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2801
+6:764  0:000    12. dafe6000: 'UEFI', 'PC', Rev: 1, Len: 62
+6:764  0:000    13. dafe5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+6:764  0:000    14. daf77000: 'POAT', 'PC', Rev: 3, Len: 85
+6:764  0:000    15. dafe4000: 'UEFI', 'PC', Rev: 1, Len: 718
+6:764  0:000    16. dafe3000: 'DBG2', 'PC', Rev: 0, Len: 112
+6:764  0:000    17. dafe2000: 'BGRT', 'PC', Rev: 0, Len: 56
+6:764  0:000  Found UEFI Acpi 2.0 RSDP at daffe014
+6:764  0:000  Saving ACPI tables from RSDP daffe014 to ACPI\origin ...
+6:764  0:000   daffe014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:764  0:000    (Xsdt: daffe170, Rsdt: daffe0d4)
+6:764  0:000    daffe170: 'XSDT', 'PC', Rev: 1, Len: 180
+6:764  0:000    daffe0d4: 'RSDT', 'PC', Rev: 1, Len: 108
+6:764  0:000    Tables in Xsdt: 18
+6:764  0:000    0. dafed000: 'FACP', 'PC', Rev: 5, Len: 268
+6:764  0:000        (Dsdt: DAFF0000, Facs: DAF9D000, XDsdt: daff0000, XFacs: 0)
+6:764  0:000        daff0000: 'DSDT', 'FJNB24D', Rev: 2, Len: 40057
+6:765  0:000        daf9d000: 'FACS', Ver: 2, Len: 64
+6:765  0:000    1. daffd000: 'SLIC', 'PC', Rev: 1, Len: 374
+6:765  0:000    2. daffc000: 'SSDT', 'SataAhci', Rev: 1, Len: 1435
+6:765  0:000    3. daffb000: 'SSDT', 'BayAhci2', Rev: 1, Len: 723
+6:765  0:000    4. daffa000: 'SSDT', 'AutoDlnk', Rev: 2, Len: 224
+6:765  0:000    5. dafef000: 'ASF!', 'PC', Rev: 32, Len: 165
+6:765  0:000    6. dafec000: 'HPET', 'PC', Rev: 1, Len: 56
+6:765  0:000    7. dafeb000: 'APIC', 'PC', Rev: 3, Len: 152
+6:765  0:000    8. dafea000: 'MCFG', 'PC', Rev: 1, Len: 60
+6:765  0:000    9. dafe9000: 'FPDT', 'PC', Rev: 1, Len: 100
+6:765  0:000    10. dafe8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+6:765  0:000    11. dafe7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2801
+6:765  0:000    12. dafe6000: 'UEFI', 'PC', Rev: 1, Len: 62
+6:765  0:000    13. dafe5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+6:765  0:000    14. daf77000: 'POAT', 'PC', Rev: 3, Len: 85
+6:765  0:000    15. dafe4000: 'UEFI', 'PC', Rev: 1, Len: 718
+6:765  0:000    16. dafe3000: 'DBG2', 'PC', Rev: 0, Len: 112
+6:765  0:000    17. dafe2000: 'BGRT', 'PC', Rev: 0, Len: 56
+6:765  0:000    Tables in Rsdt: 18
+6:765  0:000    0. dafee000: 'FACP', 'PC', Rev: 1, Len: 116
+6:765  0:000        (Dsdt: DAFF0000, Facs: DAF9D000)
+6:765  0:000        daff0000: 'DSDT', 'FJNB24D', Rev: 2, Len: 40057
+6:766  0:000        daf9d000: 'FACS', Ver: 2, Len: 64
+6:766  0:000    1. daffd000: 'SLIC', 'PC', Rev: 1, Len: 374
+6:766  0:000    2. daffc000: 'SSDT', 'SataAhci', Rev: 1, Len: 1435
+6:766  0:000    3. daffb000: 'SSDT', 'BayAhci2', Rev: 1, Len: 723
+6:766  0:000    4. daffa000: 'SSDT', 'AutoDlnk', Rev: 2, Len: 224
+6:766  0:000    5. dafef000: 'ASF!', 'PC', Rev: 32, Len: 165
+6:766  0:000    6. dafec000: 'HPET', 'PC', Rev: 1, Len: 56
+6:766  0:000    7. dafeb000: 'APIC', 'PC', Rev: 3, Len: 152
+6:766  0:000    8. dafea000: 'MCFG', 'PC', Rev: 1, Len: 60
+6:766  0:000    9. dafe9000: 'FPDT', 'PC', Rev: 1, Len: 100
+6:766  0:000    10. dafe8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+6:766  0:000    11. dafe7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2801
+6:766  0:000    12. dafe6000: 'UEFI', 'PC', Rev: 1, Len: 62
+6:766  0:000    13. dafe5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+6:766  0:000    14. daf77000: 'POAT', 'PC', Rev: 3, Len: 85
+6:766  0:000    15. dafe4000: 'UEFI', 'PC', Rev: 1, Len: 718
+6:766  0:000    16. dafe3000: 'DBG2', 'PC', Rev: 0, Len: 112
+6:766  0:000    17. dafe2000: 'BGRT', 'PC', Rev: 0, Len: 56
+6:766  0:000  Found UEFI Acpi 1.0 RSDP at daffe000
+6:766  0:000  Printing ACPI tables from RSDP daffe000 ...
+6:766  0:000   daffe000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:766  0:000    (Rsdt: daffe038)
+6:766  0:000    daffe038: 'RSDT', 'PC', Rev: 1, Len: 108
+6:766  0:000    Tables in Rsdt: 18
+6:766  0:000    0. dafee000: 'FACP', 'PC', Rev: 1, Len: 116
+6:766  0:000        (Dsdt: DAFF0000, Facs: DAF9D000)
+6:766  0:000        daff0000: 'DSDT', 'FJNB24D', Rev: 2, Len: 40057
+6:766  0:000        daf9d000: 'FACS', Ver: 2, Len: 64
+6:766  0:000    1. daffd000: 'SLIC', 'PC', Rev: 1, Len: 374
+6:766  0:000    2. daffc000: 'SSDT', 'SataAhci', Rev: 1, Len: 1435
+6:766  0:000    3. daffb000: 'SSDT', 'BayAhci2', Rev: 1, Len: 723
+6:766  0:000    4. daffa000: 'SSDT', 'AutoDlnk', Rev: 2, Len: 224
+6:766  0:000    5. dafef000: 'ASF!', 'PC', Rev: 32, Len: 165
+6:766  0:000    6. dafec000: 'HPET', 'PC', Rev: 1, Len: 56
+6:766  0:000    7. dafeb000: 'APIC', 'PC', Rev: 3, Len: 152
+6:766  0:000    8. dafea000: 'MCFG', 'PC', Rev: 1, Len: 60
+6:766  0:000    9. dafe9000: 'FPDT', 'PC', Rev: 1, Len: 100
+6:766  0:000    10. dafe8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+6:766  0:000    11. dafe7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2801
+6:766  0:000    12. dafe6000: 'UEFI', 'PC', Rev: 1, Len: 62
+6:766  0:000    13. dafe5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+6:766  0:000    14. daf77000: 'POAT', 'PC', Rev: 3, Len: 85
+6:766  0:000    15. dafe4000: 'UEFI', 'PC', Rev: 1, Len: 718
+6:766  0:000    16. dafe3000: 'DBG2', 'PC', Rev: 0, Len: 112
+6:766  0:000    17. dafe2000: 'BGRT', 'PC', Rev: 0, Len: 56
