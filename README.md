@@ -4,9 +4,9 @@
 # 这是我使用的富士通笔记本S762黑苹果引导文件，包含了 Clover 引导。直接下载zip文件即可，本引导适用于BigSur 11.1 20C69 ，原则上支持10.15以及10.14系统，已经测试没有问题。
 
 # 电脑配置
-CPU: Intel Core i5-3340M
-GPU: Intel HD Graphics 4000
-声卡: Realtek ALC269（layout-id = 6）
+CPU: Intel Core i5-3340M  
+GPU: Intel HD Graphics 4000  
+声卡: Realtek ALC269（layout-id = 6）  
 网卡: 无线网卡（已更换为 Broadcom BCM94360hmb，需要屏蔽阵脚，51有教程）+ 有线intel 82579V
 ****
 # Clover 配置说明
