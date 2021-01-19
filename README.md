@@ -1,7 +1,7 @@
 
 # Hackintosh-EFI-for-FUJITSU-S762
 
-## 这是我使用的富士通笔记本S762黑苹果引导文件，包含了 Clover 引导。直接下载zip文件即可，本引导适用于BigSur 11.1 20C69 ，原则上支持10.15以及10.14系统，已经测试没有问题。
+## Hello！！ <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">这是我使用的富士通笔记本S762黑苹果引导文件，包含了 Clover 引导。直接下载zip文件即可，本引导适用于BigSur 11.1 20C69 ，原则上支持10.15以及10.14系统，已经测试没有问题。
 ****
 # 电脑配置
 CPU: Intel Core i5-3340M  
